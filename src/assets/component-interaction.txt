@@ -1,0 +1,9 @@
+Component Interaction
+
+* Need for Component Interaction ?
+  - Angular is component based architecture. Ex: website - https://angular.io/docs
+  - This approach is used for better code management, readability and scalabity. However, components are isolated by default
+  - In order to ensure proper flow between these components some kind of interaction is needed
+  - Parent component & child component
+  - @Input() - Property Binding [] - For sharing data from parent to child component
+  - @Output() - Event Binding () - For sharing data from child to parent component

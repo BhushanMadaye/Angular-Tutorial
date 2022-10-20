@@ -1,0 +1,7 @@
+<div class="parent">
+  <button (click)="incrementChildCounter()">Increment child counter</button>
+  <p>Parent Counter : {{ parentCounter }}</p>
+
+
+  <app-child [childCounter]="childCounter" (outputEvent)="parentEvent($event)"></app-child>
+</div>
