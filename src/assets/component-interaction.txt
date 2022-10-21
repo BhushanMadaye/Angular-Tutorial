@@ -1,4 +1,4 @@
-Component Interaction
+Component Interaction => 21-10-2022 - 1 hr
 
 * Need for Component Interaction ?
   - Angular is component based architecture. Ex: website - https://angular.io/docs
